@@ -61,7 +61,7 @@ def pytest_metadata(metadata):
     metadata["Project Name"] = "CredKart"
     metadata["Environment"] = "QA Environment"
     metadata["Module"] = "User Profile"
-    metadata["Tester"] = "Vishal"
+    metadata["Tester"] = "Vikram"
     metadata.pop("Plugins", None)
 
 

@@ -34,7 +34,7 @@ class Test_User_Profile_DDT:
             if self.ur.Validate_Login_Or_Registration() == "Login or Registration Pass":
                 if self.Exp_Result == "Pass":
                     List.append("Pass")
-                    
+
                     self.driver.save_screenshot(
                         ".\\Screenshots\\Login_Pass.png")
                     self.ur.click_drpdwn_btn()
